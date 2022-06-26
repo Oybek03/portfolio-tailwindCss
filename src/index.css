@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Koulen&family=Montserrat:ital,wght@0,100;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Koulen&family=Montserrat:ital,wght@0,100;1,200&family=Raleway:wght@100;200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
