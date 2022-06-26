@@ -584,6 +584,11 @@ html {
   z-index: 10;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -604,8 +609,16 @@ html {
   height: 100vh;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-full{
   width: 100%;
+}
+
+.max-w-screen-lg{
+  max-width: 1024px;
 }
 
 .cursor-pointer{
@@ -729,6 +742,10 @@ html {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
   }
 }
 
