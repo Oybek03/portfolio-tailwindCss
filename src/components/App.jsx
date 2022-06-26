@@ -1,9 +1,10 @@
 import React from "react";
-
+import "../output.css";
+import NavBar from "./NavBar";
 const App = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-red-700">Hello</h1>
+      <NavBar />
     </div>
   );
 };
