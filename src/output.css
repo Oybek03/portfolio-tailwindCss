@@ -568,6 +568,10 @@ html {
   position: fixed;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -592,8 +596,16 @@ html {
   cursor: pointer;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .justify-between{
@@ -618,6 +630,10 @@ html {
 .py-40{
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .font-signature{
