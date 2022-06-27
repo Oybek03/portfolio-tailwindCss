@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <NavBar />
       <Home />
-      <SocialLinks/> 
+      <SocialLinks />
     </div>
   );
 };

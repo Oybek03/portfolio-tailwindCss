@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGitHub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -12,26 +12,26 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "#",
+      href: "https://www.linkedin.com/",
       style: "rounded-tr-md",
     },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGitHub size={30} />
+          GitHub <FaGithub size={30} />
         </>
       ),
-      href: "#",
+      href: "https://github.com/Oybek03",
     },
     {
       id: 3,
-      child: (  
+      child: (
         <>
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "#",
+      href: "oybekjonxayrullayevich@gmail.com",
     },
     {
       id: 4,
@@ -40,13 +40,13 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "#",
+      href: "/resume",
       style: "rounded-br-md",
       download: true,
     },
   ];
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map((link) => (
           <li
@@ -59,6 +59,7 @@ const SocialLinks = () => {
               className="flex justify-between items-center w-full text-white hover:text-white"
               download={link.download}
               target="_blank"
+              rel="noreferer"
             >
               <>{link.child}</>
             </a>

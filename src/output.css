@@ -913,3 +913,9 @@ html {
   }
 }
 
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
+}
+
