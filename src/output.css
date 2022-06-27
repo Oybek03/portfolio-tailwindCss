@@ -700,6 +700,10 @@ html {
   width: 50%;
 }
 
+.w-1\/4{
+  width: 25%;
+}
+
 .max-w-screen-lg{
   max-width: 1024px;
 }
