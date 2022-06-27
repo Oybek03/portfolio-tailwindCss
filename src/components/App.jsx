@@ -1,5 +1,6 @@
 import React from "react";
 import "../output.css";
+import About from "./About";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import SocialLinks from "./SocialLinks";
@@ -9,6 +10,7 @@ const App = () => {
       <NavBar />
       <Home />
       <SocialLinks />
+      <About />
     </div>
   );
 };
