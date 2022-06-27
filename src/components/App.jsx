@@ -1,6 +1,7 @@
 import React from "react";
 import "../output.css";
 import About from "./About";
+import Expirence from "./Expirence";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import Portfolio from "./Portfolio";
@@ -13,6 +14,7 @@ const App = () => {
       <SocialLinks />
       <About />
       <Portfolio />
+      <Expirence />
     </div>
   );
 };
