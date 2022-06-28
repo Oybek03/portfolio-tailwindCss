@@ -21,11 +21,13 @@ const Contact = () => {
           >
             <input
               type="text"
+              name="name"
               placeholder="Enter Your Name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
+              name='email'
               placeholder="Enter Your Email"
               className="my-4  p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
