@@ -1,6 +1,7 @@
 import React from "react";
 import "../output.css";
 import About from "./About";
+import Contact from "./Contact";
 import Expirence from "./Expirence";
 import Home from "./Home";
 import NavBar from "./NavBar";
@@ -15,6 +16,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Expirence />
+      <Contact />
     </div>
   );
 };
