@@ -626,6 +626,14 @@ html {
   margin-left: -85px;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .inline{
   display: inline;
 }
