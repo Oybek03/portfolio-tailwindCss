@@ -744,12 +744,20 @@ html {
   border-radius: 1rem;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .rounded-tr-md{
   border-top-right-radius: 0.375rem;
 }
 
 .rounded-br-md{
   border-bottom-right-radius: 0.375rem;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border-b-4{
@@ -769,6 +777,10 @@ html {
 .bg-gray-500{
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .bg-gradient-to-b{
@@ -996,6 +1008,11 @@ html {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .group:hover .group-hover\:rotate-90{
